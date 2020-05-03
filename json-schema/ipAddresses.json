@@ -1,12 +1,8 @@
 {
     "$id": "ipAddresses",
     "$schema": {
-        "cidrStr": {            
-            "$ref": "ipAddresses#/definitions/ipv4CIDR"
-        },
-        "firstIpAddress": {            
-            "$ref": "ipAddresses#/definitions/hostIpv4AndIpv6Address"
-        }
+        "title": "cidrStr",
+        "$ref": "ipAddresses#/definitions/ipv4CIDR"
     },
     "title": "IP Addresses",
     "description": "IP Address parameters and returned data.",
